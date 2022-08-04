@@ -1,46 +1,26 @@
-# DevmentorLive NextJS Starter Template
+# 30 Components in 30 Days
 
-## Getting Started
+#javascript #reactsjs #30componentsin30dayschallenge
 
-To create an app using this starter
+_Please consider supporting my work_ if you _learn from it_ or _use it in your apps_. Everyone who does this is _paying it forward_ to those who can't afford to send me even a single, sad, solitary dollar. They get the resource for free so they can _change their life_, and _you_ get to _feel GREAT_ about it!
 
-```bash
-npx create-next-app your-app-name -e https://github.com/devmentorlive-youtube/next-tailwind-starter
-```
+You can give me a buck or two or whatever you feel like at this link:
+https://ifyalikeit.com/get-it/62ce398814ab5f8170caa4dd
 
-## This template uses [TailwindCSS](https://tailwindcss.com/)!
+Videos coming soon, until then, enjoy the source code and if you fork, fetch and reset often to get the updates!\*
 
-## To run your server (development)
+## Completed components for you to use
 
-```
-cd your-app-name
-npm run dev
-```
+- Button
+- TextField
+- IntegerField
+- DecimalField
+- MoneyField
+- Page
+- Layout
+- Modal
+- Slider
+- Confirmation
+- Validation
 
-## Folder structure
-
-```bash
-src
-├── features
-├── pages
-│   └── index.jsx
-├── ui
-└── index.jsx
-```
-
-This app uses a modified/simplified version of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/), better suited for modern web development.
-
-
-### /ui
-
-This folder is for your "lego blocks", single purpose React components that can be combined together to make more complicated components, known as Features
-
-
-### /features
-
-This folder is for more complex components, or features. Features are created by composing many UI components and usually, state
-
-
-### /pages
-
-This folder is for navigable components. A router automagically creates urls for anything in this folder. To create a page, combine features and ui components and put them in a component in this page. Typically state is managed in the feature, and any props that come from the server are passed through pages via the return object from getServerSideProps. Those props are then passed down into features as props, or put into a context.
+😁😁😁
