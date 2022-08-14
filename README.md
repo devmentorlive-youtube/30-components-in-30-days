@@ -11,6 +11,7 @@ Videos coming soon, until then, enjoy the source code and if you fork, fetch and
 
 ## Completed components for you to use
 
+- Alert
 - Button
 - TextField
 - IntegerField
