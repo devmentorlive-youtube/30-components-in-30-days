@@ -10,11 +10,7 @@ export default function InputWithAlert() {
   const [text, setText] = useState("");
   const [showAlert, setShowAlert] = useState(false);
   const checkInput = () => {
-    if (text.includes("@gmail")) {
-      return setShowAlert(true);
-    } else {
-      return setShowAlert(false);
-    }
+    text.includes("@gmail.com") ? setShowAlert(true) : setShowAlert(false);
   };
 
   const errorClass = showAlert

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function withValidation(Component) {
-  return function ({
+  return function WrappedComponent({
     onChange,
     value,
     validations = [],
