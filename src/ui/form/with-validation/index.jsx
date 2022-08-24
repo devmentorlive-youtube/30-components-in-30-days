@@ -10,7 +10,6 @@ export default function withValidation(Component) {
   }) {
     const [errors, setErrors] = useState([]);
     const [touched, setTouched] = useState(false);
-
     useEffect(() => {
       if (!touched && value.length === 0) return;
 
