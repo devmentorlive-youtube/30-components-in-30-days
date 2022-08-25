@@ -9,3 +9,7 @@ body {
 h1 {
   @apply text-5xl prose-2xl prose-invert;
 }
+
+.header-one {
+  @apply text-4xl font-light my-4;
+}
